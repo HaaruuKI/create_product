@@ -1,10 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api, avoid_print
 
 import 'package:create_product/domain/entities/create_product/funtion_create_product.dart';
-import 'package:create_product/ui/pages/create_product/widget/description_textfield.dart';
 import 'package:create_product/ui/pages/create_product/widget/image_widget.dart';
-import 'package:create_product/ui/pages/create_product/widget/name_textfield.dart';
-import 'package:create_product/ui/pages/create_product/widget/price_textfield.dart';
 import 'package:create_product/ui/pages/create_product/widget/save_file_button.dart';
 import 'package:create_product/ui/pages/create_product/widget/select_file_button.dart';
 import 'package:create_product/ui/pages/create_product/widget/wrap_widget.dart';
