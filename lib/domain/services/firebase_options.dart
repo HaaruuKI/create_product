@@ -50,12 +50,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDPV7z-rpBw5IkRBUgnJdJFWykRKCtsdQA',
-    appId: '1:888038063008:web:27631104756a011800c2c5',
-    messagingSenderId: '888038063008',
-    projectId: 'foodie-960f5',
-    authDomain: 'foodie-960f5.firebaseapp.com',
-    storageBucket: 'foodie-960f5.appspot.com',
+    apiKey: "AIzaSyDPV7z-rpBw5IkRBUgnJdJFWykRKCtsdQA",
+    authDomain: "foodie-960f5.firebaseapp.com",
+    databaseURL: "https://foodie-960f5-default-rtdb.firebaseio.com",
+    projectId: "foodie-960f5",
+    storageBucket: "foodie-960f5.appspot.com",
+    messagingSenderId: "888038063008",
+    appId: "1:888038063008:web:27631104756a011800c2c5",
   );
 
   static const FirebaseOptions android = FirebaseOptions(

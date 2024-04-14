@@ -6,3 +6,4 @@ const fondoGris = Color.fromRGBO(189, 189, 179, 1);
 const verdeUTN = Color.fromARGB(255, 5, 87, 15);
 const bgEntradas = Color.fromRGBO(142, 142, 147, 1.2);
 const negro = Color.fromRGBO(0, 0, 0, 1);
+const blanco = Color.fromRGBO(255, 255, 255, 1);

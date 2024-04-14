@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: routes,
-      initialRoute: 'crearProductos',
+      initialRoute: 'bienvenida',
     );
   }
 }

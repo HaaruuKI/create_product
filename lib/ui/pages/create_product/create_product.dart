@@ -40,12 +40,36 @@ class _CreateProductPageState extends State<CreateProductPage> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            nameTextField(FuntionCreateProduct.nameController),
-            const SizedBox(height: 16.0),
-            priceTextField(FuntionCreateProduct.priceController),
-            const SizedBox(height: 16.0),
-            descriptionTextField(FuntionCreateProduct.descriptionController),
-            const SizedBox(height: 16.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                controller: FuntionCreateProduct.nameController,
+                decoration: const InputDecoration(
+                  labelText: 'Name',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                controller: FuntionCreateProduct.priceController,
+                decoration: const InputDecoration(
+                  labelText: 'Price',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                controller: FuntionCreateProduct.descriptionController,
+                decoration: const InputDecoration(
+                  labelText: 'Description',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ),
             const Text(
               'Category',
               style: TextStyle(
