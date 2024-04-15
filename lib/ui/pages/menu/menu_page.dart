@@ -22,7 +22,7 @@ class _MenuPageState extends State<MenuPage> {
     },
     'Ver productos': {
       'icon': Icons.view_quilt_rounded,
-      'navigatorTo': 'verProductos',
+      'navigatorTo': 'leerProductos',
     },
     'Editar producto': {
       'icon': Icons.edit,
